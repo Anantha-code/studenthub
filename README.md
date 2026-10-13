@@ -140,29 +140,6 @@ Base URL: `http://localhost:5000/api`
 5. The backend returns JSON.
 6. React refreshes the dashboard.
 
-## Upload to GitHub
-
-Create an empty repository named `studenthub-mern` on GitHub. In a terminal opened **inside this project folder**, run:
-
-```bash
-git init
-git add .
-git commit -m "Build StudentHub MERN student manager"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/studenthub-mern.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username. If `origin` already exists, inspect it with `git remote -v` before changing it.
-
-## Possible Improvements
-
-- User authentication and roles
-- CSV export
-- Pagination and sorting
-- Automated tests
-- Deployment
-
-## Interview Preparation
-
-Before presenting this project, run it locally and be ready to explain CRUD, React state, REST APIs, Express routes, Mongoose schemas, MongoDB, and the difference between frontend and backend. Do not claim features or experience you have not tested.
+| Project    | Website                      | Backend API                   |
+| ---------- | ---------------------------- | ----------------------------- |
+| StudentHub | `studenthub-mern.vercel.app` | `studenthub-api.onrender.com` |
